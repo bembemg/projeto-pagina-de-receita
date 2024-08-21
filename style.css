@@ -20,7 +20,7 @@ body {
   padding: 24px;
   background-color: #f0e8c2;
   border-radius: 24px;
-  margin: 48px auto; /* Primeiro valor define as margens verticais e o segundo as margens horizontais */
+  margin: 48px auto 28px; /* Primeiro valor define a margem do topo (total se houver somente um valor ou verticais se houver somente dois valores), segundo as margens horizontais e terceiro a margem inferior */
 }
 
 img {
@@ -56,4 +56,14 @@ h1, h2 {
     color: #291B1A;
     margin-bottom: 4px;
     line-height: 150%;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
