@@ -1,3 +1,17 @@
+body {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+}
+
+#containerpage {
+    box-sizing: border-box; /* Sem isso, haverá soma das bordas padding no width */
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto; /* Primeiro valor define as margens verticais e o segundo as margens horizontais */
+}
+
 img {
     border-radius: 16px;
 }
